@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RESUME</title>
+  <link rel="stylesheet" href="SKILLS.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="header">
+    <nav>
+      <a href="HOME.html"><img class="logo" src="WEB_LOGO_BLACK.png"></a>
+      <div class="heading">
+        <a href="#"><h1>SKILLS</h1></a>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">&emsp;&emsp;&#9776;</button>
+        <div class="dropdown-content">
+          <a href="HOME.html">HOME</a>
+          <a href="ABOUT_ME.html">ABOUT</a>
+          <a href="CAREER_WORK.html">CAREER HISTOTY</a>
+          <a href="CAREER_EDUCATION.html">ACADEMIC QUALIFICATION</a>
+          <a href="CONTACT_ME.html">CONTACT</a>
+        </div>
+      </div>
+    </nav>
+    <table class="t_dec" cellspacing="9px">
+      <tr>
+          <th>
+            <button onclick="myFunction1()" class="btn button"><b>PRIMARY SKILLS</b></button>
+          </th>
+      </tr>
+      <tr>
+        <td>
+          <div id="myDIV1">
+            <a href="#"><b style="text-decoration-line: underline; text-decoration-style: double;">Design And Development</b> - Frontend & Backend Development and SAP BODS Design</a>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <button onclick="myFunction2()" class="btn button"><b>SUB SKILLS</b></button>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <div id="myDIV2">
+              <ul>
+                <li><a href="#"><b style="text-decoration-line: underline; text-decoration-style: double;">Testing</b> - Load Runner</a></li>
+                <li><a href="#"><b style="text-decoration-line: underline; text-decoration-style: double;">Development Method</b> - Agile</a></li>
+              </ul>
+          </div>
+        </td>  
+      </tr>
+      <tr>
+        <td>
+          <button onclick="myFunction3()" class="btn button" style="background-color:none;"><b>ENVIRONMENT (With Skill Versions)</b></button>
+          <div id="myDIV3">
+            <table class="dec_envi">
+              <tr>
+                <th colspan="2"><a href="#" style="color: white;"><b style="text-decoration-line: underline; text-decoration-style: double;">LANGUAGES</b></a></th>
+              </tr>
+              <tr>
+                <td><a href="#"><b style="text-decoration-line:overline underline; text-decoration-style: double;">Backend Development</b></a></td>
+                <td class="dec_envi1"><a href="#"><b style="text-decoration-line:overline underline; text-decoration-style: double;">Frontend Development</b></a></td>
+              </tr>
+              <tr class="dec_envi2">
+                <td>
+                  <ul class="a">
+                    <li><a href="#">&emsp;&#9632;&ensp;C</a></li>
+                    <li><a href="#">&emsp;&#9632;&ensp;PYTHON</a></li>
+                    <li><a href="#">&emsp;&#9632;&ensp;JAVA</a></li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="a">
+                    <li><a href="#">&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&#9632;&ensp;HTML</a></li>
+                    <li><a href="#">&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&#9632;&ensp;CSS</a></li>
+                    <li><a href="#">&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&#9632;&ensp;JAVA SCRIPT</a></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th colspan="2"><a href="#" style="color: white;"><b style="text-decoration-line: underline; text-decoration-style: double;">DATABASE</b></a></th>
+              </tr>
+              <tr>
+                <td><a href="#">&#9632;&ensp;Oracle</a></td>
+                <td><a href="#">&#9632;&ensp;SQL</a></td>
+              </tr> 
+              <tr>
+                <th colspan="2"><a href="#" style="color: white;"><b style="text-decoration-line: underline; text-decoration-style: double;">TOOLS</b></a></th>
+              </tr>
+              <tr class="dec_envi3">
+                <td>
+                  <ul class="a">
+                    <li><a href="#">&#9632;&ensp;Eclipse</a></li>
+                    <li><a href="#">&#9632;&ensp;Visual Studio Code</a></li>
+                    <li><a href="#">&#9632;&ensp;Dev-c++</a></li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="a">
+                    <li><a href="#">&emsp;&emsp;&#9632;&ensp;Data Service Designer(SAP BODS)</a></li>
+                    <li><a href="#">&emsp;&emsp;&#9632;&ensp;MySQL</a></li>
+                    <li><a href="#">&emsp;&emsp;&#9632;&ensp;Load Runner</a></li>
+                  </ul>
+                </td>
+              </tr> 
+            </table>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <button onclick="myFunction4()" class="btn button"><b>LINGUISTIC SKILLS</b></button>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <div id="myDIV4">
+            <a href="#">&#9632;&ensp;English</a>
+            <a href="#">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&#9632;&ensp;Tamil</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <script>
+       function myFunction1() {
+        var x = document.getElementById("myDIV1");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      function myFunction2() {
+        var x = document.getElementById("myDIV2");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }    
+      function myFunction3() {
+        var x = document.getElementById("myDIV3");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }   
+      function myFunction4() {
+        var x = document.getElementById("myDIV4");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }  
+    </script>
+  </div> 
+</body>
+</html>

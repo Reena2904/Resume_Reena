@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('HOME_BG.webp');
+    background-position: center;
+    background-size: cover;
+    padding: 0 10.5%;
+    position: relative;
+    font-weight: bolder;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    position: relative;
+    right: 90px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1px 0 30px; 
+    justify-content: space-between;  
+    position: relative;
+    z-index: 100;
+}
+nav ul{
+    flex: 1;
+    margin-left: 120px;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 1% 1%;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    color:white;
+    background-color: black;
+    border: white;
+    border-radius: 30px;
+   box-sizing: border-box;
+}
+.text-box{
+    margin-top: 100px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+.text-box h1{
+    font-size: 30px;
+    line-height: 120px;
+    margin-left: 85px;
+    color: black;
+}
+.text-box p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+    width: 500px;
+    height: 100px;
+    text-align: justify;
+    margin-left: 1px;
+    color: black;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+.text-box a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    border-radius: 6px;
+    border: 2px solid #0C090A;
+    background: rgba(255, 255, 255, 0.2);
+    margin-left: 125px;
+}
+.dec{
+    table-layout: fixed ;
+     width: 100% ;
+}
+.t_dec{
+    width: 25% ;
+    margin-left: 900px;
+    margin-bottom: 500px;
+    padding:25px;
+    border-spacing: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+.pic{
+    width: 200px;
+    cursor: none;
+    position: relative;
+}
